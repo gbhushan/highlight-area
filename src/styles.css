@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+}
+
+.grid {
+  height: 200px;
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  /* border: 1px solid red; */
+  flex-grow: 1;
+  /* height: 20px; */
+  display: flex;
+}
+
+.box {
+  border: 1px solid orange;
+  flex-grow: 1;
+  /* height: 15px; */
+  /* background-color: yellow; */
+  /* width: 40px; */
+}
